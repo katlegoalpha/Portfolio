@@ -12,7 +12,7 @@
     --fw-bold: 900;
     
     --clr-light: white;
-    --clr-dark: #181818;
+    --clr-dark: #384a59;
     --clr-accent: #C82736;
     
     --fs-h1: 3rem;
@@ -74,11 +74,14 @@ strong { font-weight: var(--fw-bold);}
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
+    border-radius: 10px;
+    background: var(--clr-dark);
 }
 
 .btn:hover {
     transform: scale(1.1);
     background: var(--clr-accent);
+    color: var(--clr-dark);
 }
 
 /* Typography */
