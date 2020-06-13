@@ -362,8 +362,9 @@ header {
 }
 
 .portfolio {
-    display: block;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(600px, 2fr));
+    text-align: center;
 }
 
 .section__subtitle--work {
