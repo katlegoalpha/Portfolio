@@ -53,7 +53,7 @@
                   <div class="col-md-8 col-md-offset-2">
                     <div class="home-content">
                       <div class="home-heading">
-                        <h1><em>Katlego Mkhonza</em> FrontEnd web developer</h1>
+                        <h1 class="text"><em>Katlego Mkhonza</em> FrontEnd web developer</h1>
                       </div>
                       <div class="row">
                         <div class="col-md-6">
@@ -74,17 +74,17 @@
 
                         </div>
 						<div class="col-md-3 col-md-offset-3 .greeting">
-							<img src="img/hello.png" alt="">
+							<img class="hello" src="img/hello.png" alt="">
 						</div>
 						<div class="col-md-6 right-image">
-							<img src="img/right-home-image.gif" alt="">
+							<img class="charactImg" src="img/right-home-image.gif" alt="">
                         </div>
                       </div>
                     </div>
                   </div>
 				  <div class="profesional-link">
-					  <a href="https://github.com/katlegoalpha" target="_blank"><img src="img/github-logo.png" alt="GitHub"></a>
-					  <a href="https://www.linkedin.com/in/katlego-mkhonza-4b9280175/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+					  <a class="git" href="https://github.com/katlegoalpha" target="_blank"><img src="img/github-logo.png" alt="GitHub"></a>
+					  <a class="linked" href="https://www.linkedin.com/in/katlego-mkhonza-4b9280175/" target="_blank"><img src="img/linkedin.png" alt=""></a>
 				  </div>
                 </div>
               </div>
@@ -294,6 +294,30 @@
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+		
+		
+		<!--Gsap CDN    -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.min.js"></script>
 
+		<!-- gsap scipt -->
+		<script>
+			<!-- h1 -->
+			gsap.fromTo('.text',
+			{x: '30rem', opacity: 0},
+			{x: 0, opacity: 1, ease: 'back.out(2)', delay:3});
+			<!-- social icons -->
+			gsap.fromTo('.linked',
+            {x: '30rem', opacity: 0},
+            {x: 0, opacity: 1, ease: 'back.out(1.7)', delay:2.3});
+		
+			gsap.fromTo('.git',
+			{x: '30rem', opacity: 0},
+			{x: 0, opacity: 1, ease: 'back.out(1.7)', delay:1.5});
+		
+			
+			gsap.fromTo('.hello',
+			{x: '30rem', opacity: 0},
+			{x: 0, opacity: 1, ease: 'back.out(2)', delay:5});
+		</script>
     </body>
 </html>
