@@ -283,12 +283,6 @@ ul {
 
 
 
-/*
-========================
------- HOME STYLE ------
-========================
-*/
-
 .home-content {
 	height: 90vh;
 	background-color: rgb(175, 138, 155, 0.5);
@@ -368,9 +362,9 @@ ul {
 }
 
 /*
-========================
------- ABOUT STYLE -----
-========================
+************************
+****** ABOUT STYLE *****
+************************
 */
 
 .about-content {
@@ -433,9 +427,9 @@ ul {
 
 
 /*
-========================
----- PROJECTS STYLE ----
-========================
+************************
+**** PROJECTS STYLE ****
+************************
 */
 
 .projects-content {
@@ -493,16 +487,11 @@ ul {
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
 }
-
-
-
-
 /*
-========================
----- CONTACT STYLE -----
-========================
+************************
+**** CONTACT STYLE *****
+************************
 */
-
 .contact-content {
   height: 100vh;
   background-color: rgb(175, 138, 155, 0.5);
@@ -511,7 +500,6 @@ ul {
   position: relative;
   margin: 0 auto;
 }
-
 .contact-content .heading {
   padding-top: 35%;
 }
@@ -613,9 +601,9 @@ ul {
 
 
 /*
-========================================
----------- RESPONSIVE STYLE ------------
-========================================
+****************************************
+********** RESPONSIVE STYLE ************
+****************************************
 */
 
 @media (max-width: 768px){
@@ -725,17 +713,17 @@ ul {
 
 
 /*
-========================================
------------ LIGHT BOX STYLE ------------
-========================================
+****************************************
+*********** LIGHTBOX STYLE ************
+****************************************
 */
 
 
-/* Preload images */
+/* Preload images 
 body:after {
   content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
   display: none;
-}
+} */
 
 body.lb-disable-scrolling {
   overflow: hidden;
