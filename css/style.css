@@ -304,8 +304,8 @@ ul {
 	margin-right: 20px;
 	font-size: 45px;
 	font-style: normal;
-  font-weight: 1000;
-  color: #fa5252;
+    font-weight: 1000;
+    color: #fa5252;
 }
 
 .home-content .home-box-content {
@@ -315,12 +315,12 @@ ul {
 	right: -100px;
 	padding: 30px;
 	display: inline-block;
-	border-radius: 10px 10px 0 0;
+	border-radius: 25px;
 }
 
 .home-content .left-text {     
 	float: left;     
-	width: 60%; 
+	width: 80%; 
 }
 
 .home-content .left-text h4 {
@@ -576,6 +576,7 @@ ul {
   position: absolute;
   margin-left: -30px;
   margin-right: -100px;
+  border-radius: 50px;
 }
 
 .footer {
