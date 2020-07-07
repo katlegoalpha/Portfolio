@@ -8,7 +8,6 @@
 		<meta name="author" content="Katlego Mkhonza">
 		<meta name="description" content="Personal Portfolio">
 		<meta name="keywords" content="HTML, CSS, JavaScript, FrontEnd web developer ">
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="img/right-home-image.gif">
         <!-- custom google fonts-->
@@ -21,9 +20,6 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
         <nav class="nav">
           <div class="burger">
             <div class="burger__patty"></div>
@@ -60,11 +56,11 @@
                           <div class="home-box-content">
                             <div class="left-text">
                               <h4>My <em>Skills</em></h4>
-                              <p> 
-                                •JavaScript•HTML5•CSS3/SASS<br>•WordPress•Bootstrap 4•responsive web design<br>• jQuery•ES6 react & Node•<br>
+                              <p class="skill-icons"> 
+                                <img src="img/javascript.png" alt=""><img src="img/html.png" alt=""><img src="img/css.png" alt=""><img src="img/wordpress.png" alt=""><img src="img/nodejs.png" alt=""><img src="img/react.png" alt="">
                               </p>
                               <div class="primary-button">
-                                <a href="#3">Skills <br> in <br> Action</a>
+                                <a href="#3">Skills<br>in<br>Action</a>
                               </div>
                             </div>
                             
@@ -175,66 +171,7 @@
                                 </div>
                               </div>
                             </div>
-                            <div><!--
-                              <div class="project-item">
-                                <a href="img/project-item-03.jpg" data-lightbox="image-1"><img src="img/project-item-03.jpg" alt=""></a>
-                                <div class="text-content">
-                                  <h4>New Thought</h4>
-                                  <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
-                                  <div class="primary-button">
-                                    <a href="#">Live Demo</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
                             <div>
-                              <div class="project-item">
-                                <a href="img/project-item-04.jpg" data-lightbox="image-1"><img src="img/project-item-04.jpg" alt=""></a>
-                                <div class="text-content">
-                                  <h4>Next Moment</h4>
-                                  <p>Lorem ipsum dolor sit amet, adipis scing elit etiam sit amet ante vehicula, aliquam mauris in, luctus neque.</p>
-                                  <div class="primary-button">
-                                    <a href="#">Live Demo</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div> 
-                            <div>
-                              <div class="project-item">
-                                <a href="img/project-item-05.jpg" data-lightbox="image-1"><img src="img/project-item-05.jpg" alt=""></a>
-                                <div class="text-content">
-                                  <h4>Artwork</h4>
-                                  <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
-                                  <div class="primary-button">
-                                    <a href="#">Live Demo</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div class="project-item">
-                                <a href="img/project-item-06.jpg" data-lightbox="image-1"><img src="img/project-item-06.jpg" alt=""></a>
-                                <div class="text-content">
-                                  <h4>Sixth Box</h4>
-                                  <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
-                                  <div class="primary-button">
-                                    <a href="#">Live Demo</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div class="project-item">
-                                <a href="img/project-item-07.jpg" data-lightbox="image-1"><img src="img/project-item-07.jpg" alt=""></a>
-                                <div class="text-content">
-                                  <h4>Item #7</h4>
-                                  <p>Lorem ipsum dolor, adipis scing elit etiam ante vehicula, aliquam mauris in, luctus neque.</p>
-                                  <div class="primary-button">
-                                    <a href="#">Live Demo</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div> -->
                           </div>
                         </div>
                       </div>
@@ -257,7 +194,7 @@
                       </div>
                       <div class="row">
                         <div class="col-md-8">
-                          <div class="contat-form">
+                          <div class="contact-form">
                             <form id="contact" action="" method="post" name="contact" netlify>
                               <fieldset>
                                 <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
@@ -306,10 +243,8 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 		
-		
 		<!--Gsap CDN    -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.min.js"></script>
-
 		<!-- gsap scipt -->
 		<script>
 			<!-- h1 -->
