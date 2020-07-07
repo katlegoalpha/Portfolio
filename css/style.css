@@ -324,7 +324,7 @@ ul {
 
 .home-content .home-box-content {
 	margin-top: 45px;
-	background-color: rgb(218,128,137, 0.9);
+	background-color: #AF8A9B;
 	position: relative;
 	right: -100px;
 	padding: 30px;
@@ -334,7 +334,7 @@ ul {
 
 .home-content .left-text {     
 	float: left;     
-	width: 80%; 
+	width: 100%; 
 }
 
 .home-content .left-text h4 {
@@ -362,9 +362,6 @@ ul {
 
 .home-content .right-image {
 	float: right;
-}
-.skill-icons {
-	margin: 5px;
 }
 
 .profesional-link {
