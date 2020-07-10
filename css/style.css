@@ -119,12 +119,12 @@ ul {
   left: 0;
   text-decoration: none;
   font-size: 24px;
-  background: #AF8A9B;
+  background: transparent;
   -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .nav__link:hover {
-  background: #E09290;
+  background: rgb(224, 146, 144, 0.5);
 }
 @media (max-width: 640px) {
   .nav {
