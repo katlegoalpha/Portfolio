@@ -134,7 +134,7 @@
                                 <a href="img/project-item-02.png" data-lightbox="image-1"><img src="img/project-item-02.png" alt=""></a>
                                 <div class="text-content">
                                   <h4>ToDo List APP</h4>
-                                  <p><em style="border-bottom: 2px solid #e859499f;">Todo list tracking web app</em> 
+                                  <p><em style="border-bottom: 2px solid #e859499f;">Web App</em> 
                                     <br>
                                     <br>
                                     Tools Used:<br>
@@ -167,20 +167,20 @@
                   <div class="col-md-8 col-md-offset-2">
                     <div class="contact-content">
                       <div class="heading">
-                        <h4 style="color: rgb(175, 138, 155); border: 5.5px solid rgb(175, 138, 155);">Let's get in touch</h4>
+                        <h4>Let's get in touch</h4>
                       </div>
                       <div class="row">
                         <div class="col-md-8">
                           <div class="contact-form">
                             <form id="contact" action="" method="post" name="contact" netlify>
                               <fieldset>
-                                <input style="color: #fff; background-color: rgb(175, 138, 155);" name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
                               </fieldset>
                               <fieldset>
-                                <input style="color: #fff; background-color: rgb(175, 138, 155);" name="email" type="email" class="form-control" id="email" placeholder="Email" required="">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email" required="">
                               </fieldset>
                               <fieldset>
-                                <textarea style="color: #fff; background-color: rgb(175, 138, 155);" name="message" rows="6" class="form-control" id="message" placeholder="Message" required=""></textarea>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required=""></textarea>
                               </fieldset>
                               <fieldset>
                                 <button type="submit" id="form-submit" class="btn">Send Message</button>
@@ -202,7 +202,7 @@
                   </div>
                   <div class="col-md-12">
                     <div class="footer">
-                      <p>Copyright &copy; 2020 Katlego Mkhonza 
+                      <p>Copyright &copy; 2021 Katlego Mkhonza 
                       | <em>I can make your ideas come to life<em></p>
                     </div>
                   </div>
@@ -223,25 +223,21 @@
 		<!--Gsap CDN    -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.min.js"></script>
 		<!-- gsap scipt -->
+
 		<script>
 			//GSAP FOR h1
 			gsap.fromTo('.text',
 			{x: '30rem', opacity: 0},
 			{x: 0, opacity: 1, ease: 'back.out(2)', delay:3});
+
 			//GSAP FOR social icons 
 			gsap.fromTo('.linked',
-            {x: '30rem', opacity: 0},
-            {x: 0, opacity: 1, ease: 'back.out(2)', delay:2.3});
+      {x: '30rem', opacity: 0},
+      {x: 0, opacity: 1, ease: 'back.out(2)', delay:2.3});
 		
 			gsap.fromTo('.git',
 			{x: '30rem', opacity: 0},
 			{x: 0, opacity: 1, ease: 'back.out(2)', delay:1.5});
-		
-			//speech bubble
-			gsap.fromTo('.hello',
-			{x: '30rem', opacity: 0},
-			{x: 0, opacity: 1, ease: 'back.out(2)', delay:4});
-			
 		</script>
     </body>
 </html>
