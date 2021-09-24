@@ -48,6 +48,14 @@ body,html {
 #header div {
     display:block;
 }
+#header > #details{
+    margin-left: 500px;
+}
+
+#header > #links {
+    margin-left: 500px;
+    display: flex;
+}
 #title {
     font-size:40px;
     background-color: #A40505;
@@ -228,7 +236,7 @@ body,html {
 }
 
 div .row {
-    width:1300px; 
+    width:1300px; ]
     margin:0 auto;
     margin-top: 91px;
 }
