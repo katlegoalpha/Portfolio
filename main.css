@@ -3,7 +3,7 @@ body,html {
     margin:0px;
     font-weight: bold;
     color: white;
-    background: #000;
+    background: rgb(2, 36, 41);
     scroll-behavior: smooth;
 	font-family: 'Poiret One', cursive;
 }
@@ -169,11 +169,11 @@ body,html {
 }
 #contact form input:focus {
     outline:none;
-    border-bottom:2px solid rgba(255,255,255,1);
+    border-bottom:2px solid rgb(202, 108, 108);
 }
 #contact form textarea:focus {
     outline:none;
-    border-bottom:2px solid rgba(255,255,255,1);
+    border-bottom:2px solid rgb(209, 42, 42);
 }
 ::placeholder {
     color:#fff;
@@ -195,6 +195,7 @@ body,html {
     color:#000;
 }
 .project div {
+    align-items: stretch;
     font-weight:normal;
 }
 .btn_two {
@@ -225,6 +226,24 @@ body,html {
     background:#000;
     transition:0.4s ease-in-out;
 }
+
+div .row {
+    width:1300px; 
+    margin:0 auto;
+    margin-top: 91px;
+}
+
+div .col-sm-3 {
+    border-style: solid;
+    border-color:rgb(209, 193, 193);
+    border-width: 7px;
+}
+
+h1 {
+    width:1300px; 
+    margin:0 auto;
+}
+
 .btn_social:hover {
     color:#000;
     background:rgb(129, 9, 9);
