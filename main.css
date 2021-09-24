@@ -3,7 +3,6 @@ body,html {
     margin:0px;
     font-weight: bold;
     color: white;
-    background: rgb(2, 36, 41);
     scroll-behavior: smooth;
 	font-family: 'Poiret One', cursive;
 }
@@ -142,6 +141,7 @@ body,html {
 }
 #contact form {
     width:100%;
+    margin: 0 auto;
 }
 #contact form input {
     width:46%;
@@ -236,7 +236,9 @@ div .row {
 div .col-sm-3 {
     border-style: solid;
     border-color:rgb(209, 193, 193);
-    border-width: 7px;
+    border-width: 1px;
+    text-align: center;
+    color:rgb(190, 181, 181);
 }
 
 h1 {
