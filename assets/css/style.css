@@ -9,7 +9,8 @@ body {
   background-size: cover;
   position: relative;
   font-family: "Red Hat Display", sans-serif;
-  color: #000000;
+  color: rgb(192, 190, 190);
+  background-color: #000000;
   font-size: large;
 }
 /*
@@ -349,7 +350,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #5a3434;
 }
 .section-title h2::before {
   content: "";
@@ -373,6 +374,8 @@ section {
 }
 .section-title p {
   margin-bottom: 0;
+  padding-left: 65px;
+  padding-right: 65px;
 }
 
 /*--------------------------------------------------------------
@@ -403,7 +406,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #bb0505;
+  color: #5c2f35;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -413,6 +416,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  background-color: #241819f8;
+  color: rgb(160, 152, 152);
+  border-radius: 8px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -607,7 +615,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #241819f8;
 }
 .contact .info i {
   font-size: 20px;
@@ -615,7 +623,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #241819f8;
   display: flex;
   justify-content: center;
   align-items: center;
